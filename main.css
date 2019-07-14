@@ -1,0 +1,102 @@
+body {
+	background-color: rgb(130, 135, 204);
+	text-align: center;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+	border: 2px solid #000000;
+	text-align: left;
+	padding: 8px;
+}
+
+
+.left{
+	float: left;
+	width: 50%;
+	height: max-content;
+	display: inline-block;
+}
+
+.right{
+	float: right;
+	width: 50%;
+	height: max-content;
+	display: inline-block;
+}
+
+.logo{
+	width: 50px;
+	height: 50px;
+}
+
+fieldset{
+	border: solid 2px rgb(77, 57, 255);
+}
+
+label, legend {
+	color: #333;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+	border: solid 2px rgb(77, 57, 255);
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	color: #333;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+	background-color: rgb(77, 57, 255);
+  }
+  .active {
+	background-color: rgb(77, 57, 255);
+	color: white;
+  }
+
+h1, h2, h3 {
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+	
+	padding: 8px;
+	font-style: italic;
+	color: #333;
+}
+.center{
+	float: center;
+	width: 50%;
+	margin: auto;
+}
+
+label, input {
+	padding: 4px;
+}
+
+.button {
+	background-color: rgb(77, 57, 255);
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	}
+	
